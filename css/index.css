@@ -1,0 +1,19 @@
+.navbar a{
+    color: white!important;
+}
+.dropdown-menu{
+    background-color: #4d3a75!important;
+}
+.dropdown-menu li a:hover{
+    background-color: #acacac!important;
+}
+.menu-left{
+   margin-right: 40px;
+}
+.menu-left li {
+    padding-inline: 15px;
+}
+.menu img{
+    
+    width: 60px;
+}
