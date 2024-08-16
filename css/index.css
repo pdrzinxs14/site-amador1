@@ -36,35 +36,44 @@
     
 }
 
+.card-header{
+border-bottom: none !important;
+}
+
 .card1 {
     
-    
+    color: white !important;
  
-
+    max-width: 350px;
     z-index: 10;
-    
+    width: 350px;
+    border-radius: 15px !important;
     background-color: red !important;
 }
 .card1 p {
     padding: 20px;
-    margin-top: 20px !important;
+    margin-top: 30px !important;
     padding-left: 30px;
+    
 }
 
 .card1 .titulo {
     padding: 30px;
-    margin-top: 10px !important;
+    margin-top: 30px !important;
 }
 
 .card1 a {
     margin-left: 10px !important;
-    width: 300px;
-    padding-top: 10px   ;
+    width: 295px;
+    margin-top: 10px;
     border-radius: 15px;
     font-size: 30px !important;
     background-color: #4d3a75;
     color: white;
     border-color: #4d3a75;
+    z-index: 88 !important;
+    
+    position: absolute;
 }
 
 .custom-card {
@@ -82,4 +91,62 @@
 }
 .card-body-custom {
     background-color: red; /* Cor de fundo personalizada para o corpo do card */
+}
+
+@media (max-width: 576px) {
+
+    .custom-card {
+        border: 1px solid #dee2e6; /* Cor da borda */
+        border-radius: 0.375rem; /* Borda arredondada */
+        overflow: hidden; /* Garante que a borda arredondada funcione com imagens */
+        transition: box-shadow 0.3s ease; /* Transição suave para sombra */
+    }
+    .custom-card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+    }
+    .card-header-custom {
+        background-color: #007bff; /* Cor de fundo personalizada para o cabeçalho do card */
+        color: white; /* Cor do texto do cabeçalho */
+    }
+    .card-body-custom {
+        background-color: red; /* Cor de fundo personalizada para o corpo do card */
+    }
+    .card1 {
+        width: 335px;
+    }
+    .card1 a {
+        margin-left: 10px !important;
+        width: 280px;
+        padding-top: 10px   ;
+        border-radius: 15px;
+        font-size: 30px !important;
+        background-color: #4d3a75;
+        color: white;
+        border-color: #4d3a75;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .card1 {
+        width: 290px;
+    }
+    .card1 a {
+        width: 235px;
+    }
+}
+.carousel-control-prev-icon {
+    margin-top: 400px !important;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.carousel-control-next-icon {
+    margin-top: 400px !important;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    border-radius: 20px;
 }
