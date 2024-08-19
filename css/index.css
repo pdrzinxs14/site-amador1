@@ -41,38 +41,44 @@ border-bottom: none !important;
 }
 
 .card1 {
-    
+    position: relative;
     color: white !important;
- 
-    max-width: 350px;
+    top: 30px;
+    left: 30px;
+    max-width: 300px;
     z-index: 10;
-    width: 350px;
+    padding-bottom: 30px !important;
+    width: 300px;
     border-radius: 15px !important;
     background-color: red !important;
 }
 .card1 p {
-    padding: 20px;
-    margin-top: 30px !important;
-    padding-left: 30px;
+    margin-top: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-bottom: 0px !important;
     
 }
 
 .card1 .titulo {
     padding: 30px;
-    margin-top: 30px !important;
+    padding-top: 15px !important;
+    
 }
 
 .card1 a {
     margin-left: 10px !important;
-    width: 295px;
-    margin-top: 10px;
+    width: 214px;
     border-radius: 15px;
     font-size: 30px !important;
     background-color: #4d3a75;
     color: white;
     border-color: #4d3a75;
     z-index: 88 !important;
-    
+    bottom: -25px;
+    left: 30px;
+    text-decoration-line: none;
+    padding-left: 20px;
     position: absolute;
 }
 
@@ -130,9 +136,24 @@ border-bottom: none !important;
 @media (max-width: 350px) {
     .card1 {
         width: 290px;
+        
+        left: 15px;
     }
     .card1 a {
         width: 235px;
+        left: 19px;
+    }
+}
+@media (max-width: 380px) {
+    .card1 a {
+        width: 210px;
+        left: 34px;
+    }
+}
+@media (max-width: 430px) {
+    .card1 a {
+        width: 210px;
+        left: 33px;
     }
 }
 .carousel-control-prev-icon {
