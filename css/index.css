@@ -187,6 +187,9 @@ border-bottom: none !important;
     background-color: #b7c7f8!important;
     border-radius: 20px!important;
 }
+.col-sm-5 img{
+    margin-left: 50px;
+}
 .card{
   
     width: 250px;
