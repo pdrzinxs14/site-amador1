@@ -155,22 +155,36 @@
     <main>
       <div class="form-section"><br> <!--NAO MEXER NA PARTE DO FORMULARIO // isabela -->
         <div class="form">
-        <h4>Preencha o formulário e nosso time <br>entrará em contato com você.</h4>
-        <form class="formulario">
-          <h5>Nome*</h5>
-        <input class="form-control form-control-lg" type="text" placeholder="" aria-label=".form-control-lg example"><br>
-        <h5>Email*</h5>
-        <input class="form-control form-control-lg" type="text" placeholder="" aria-label=".form-control-lg example"><br>
-        <h5>Telefone</h5>
-        <input class="form-control form-control-lg" type="text" placeholder="" aria-label=".form-control-lg example"><br>
-        <h5>Ano Escolar*</h5>
-        <input class="form-control form-control-lg" type="text" placeholder="" aria-label=".form-control-lg example"><br>
-        </form>
-      </div>
-      <div class="col-sm-5">
-        <img height="500px" src="FORM IMG.jpg" alt="">
-      </div>
-      </div>
+            <h4>Preencha o formulário e nosso time <br>entrará em contato com você.</h4>
+            <form class="formulario">
+                <div class="form-group">
+                    <label for="nome">Nome*</label>
+                    <input class="form-control form-control-lg" id="nome" name="nome" type="text" placeholder="" required aria-label="Nome">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input class="form-control form-control-lg" id="email" name="email" type="email" placeholder="" required aria-label="Email">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input class="form-control form-control-lg" id="telefone" name="telefone" type="tel" placeholder="" aria-label="Telefone">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="ano-escolar">Ano Escolar*</label>
+                    <input class="form-control form-control-lg" id="ano-escolar" name="ano-escolar" type="text" placeholder="" required aria-label="Ano Escolar">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary"><span style="font-size: 20px;">Cadastrar</span></button>
+            </form>
+        </div>
+        <div class="col-sm-5">
+            <img height="500px" src="FORM IMG.jpg" alt="Imagem do Formulário">
+        </div>
+    </div>
+    
     </main>
     <main>
 
