@@ -187,3 +187,26 @@ border-bottom: none !important;
     background-color: #b7c7f8!important;
     border-radius: 20px!important;
 }
+.card{
+  
+    width: 250px;
+    
+    
+  }
+  .card-body{
+    padding-right: 20PX;
+    
+    
+  }
+  .estrela{
+    height: 200px;
+    width: 200px;
+    margin-left: 78px;
+    margin-top: -60px;
+    
+  }
+  .texto-card-inicial{
+
+  margin-top: -40px;
+
+  }
