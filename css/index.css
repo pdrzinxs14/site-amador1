@@ -331,6 +331,7 @@ display: flex;
 .LogoFaceInst{
     display: flex;
     margin-left: 40px;
+    margin-bottom: 40px !important;
 }
 
 .QR-code{
@@ -349,5 +350,5 @@ display: flex;
     color: #fff;
     background-color: black;
     text-align: center;
-    border-top: 12px solid #000; /* Ajuste a cor e a espessura conforme necessário */
+    border-top: 7px solid #000; /* Ajuste a cor e a espessura conforme necessário */
 }

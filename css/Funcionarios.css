@@ -117,6 +117,7 @@ display: flex;
 }
 
 .LogoFaceInst{
+    margin-bottom: 40px !important;
     display: flex;
     margin-left: 40px;
 }
